@@ -19,6 +19,5 @@ public class DBConnectionUtil {
         } catch (SQLException e) {
             throw new IllegalArgumentException(e);    // 예외 처리는 강의 뒷부분에서
         }
-
     }
 }
